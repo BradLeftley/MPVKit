@@ -14,6 +14,14 @@ let package = Package(
             name: "MPVKit-GPL",
             targets: ["_MPVKit-GPL"]
         ),
+        .library(
+            name: "Libavformat",
+            targets: ["Libavformat"]
+        ),
+        .library(
+            name: "Libavutil",
+            targets: ["Libavutil"]
+        ),
     ],
     targets: [
         .target(
